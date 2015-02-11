@@ -1,13 +1,12 @@
 {
   "project": {
-    "projectSettingsVersion": "1.1",
+    "projectSettingsVersion": "1.2",
     "creationData": {
-      "type": "Blank Project",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
-      "src": "blankproject",
-      "projectGuid": "a9805b6b-b694-451a-915e-287905a7cd7d",
-      "lastModifiedDate": 1416291429510,
-      "creationDate": 1416291429449
+      "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2015-ww07/template-phaser-landscape/sample.zip",
+      "projectGuid": "a41de800-3e04-4a71-8a17-e0ebcc6d40e4",
+      "lastModifiedDate": 1423626786588,
+      "creationDate": 1423469832454
     },
     "sourceDirectory": "www",
     "startFile": "index.html",
@@ -30,6 +29,14 @@
       }
     ],
     "serviceMethods": [],
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {
+      "gameEngineName": "phaser",
+      "gameEngineVersion": "2.1.1"
+    },
+    "projectTags": [
+      "XDK-game-app"
+    ],
     "cordovaPluginsDirectory": "plugins",
     "cordovaPlugins": [
       {
@@ -55,19 +62,21 @@
         "preferences_": {
           "android-minSdkVersion": "10",
           "android-targetSdkVersion": "19",
-          "android-installLocation": "auto"
+          "android-installLocation": "auto",
+          "Fullscreen": true,
+          "Orientation": "landscape"
         },
         "isActive_": true,
-        "appName_": "phaser-tiled-map-spritesheet-sample",
-        "appID_": "xdk.intel.blank.project",
+        "appName_": "phaser tiled map spritesheet sample",
+        "appID_": "xdk.intel.phaser.js.project",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "4.1.2",
+        "crosswalkVersion_": "10",
         "appVersion_": "0.0.1",
         "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser.",
         "appAuthor_": "",
@@ -80,22 +89,24 @@
         "preferences_": {
           "android-minSdkVersion": "14",
           "android-targetSdkVersion": "19",
-          "android-installLocation": "auto"
+          "android-installLocation": "auto",
+          "Fullscreen": true,
+          "Orientation": "landscape"
         },
         "isActive_": true,
-        "appName_": "phaser-tiled-map-spritesheet-sample",
-        "appID_": "xdk.intel.blank.project",
+        "appName_": "phaser tiled map spritesheet sample",
+        "appID_": "xdk.intel.phaser.js.project",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "4.1.2",
+        "crosswalkVersion_": "10",
         "appVersion_": "0.0.1",
         "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser.",
-        "appAuthor_": "",
+        "appAuthor_": "Intel XDK",
         "appVersionCode_": "1"
       },
       "iOS": {
@@ -104,19 +115,21 @@
         "name_": "iOS",
         "preferences_": {
           "ios-target": "5",
-          "ios-configuration": "adhoc"
+          "ios-configuration": "adhoc",
+          "Fullscreen": true,
+          "Orientation": "landscape"
         },
         "isActive_": true,
-        "appName_": "phaser-tiled-map-spritesheet-sample",
-        "appID_": "xdk.intel.blank.project",
+        "appName_": "phaser tiled map spritesheet sample",
+        "appID_": "xdk.intel.phaser.js.project",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "4.1.2",
+        "crosswalkVersion_": "10",
         "appVersion_": "0.0.1",
         "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
       },
@@ -126,19 +139,21 @@
         "name_": "Windows8",
         "preferences_": {
           "windows-publisher-display-name": "",
-          "windows-publisher-id": ""
+          "windows-publisher-id": "",
+          "Fullscreen": true,
+          "Orientation": "landscape"
         },
         "isActive_": true,
-        "appName_": "phaser-tiled-map-spritesheet-sample",
-        "appID_": "xdk.intel.blank.project",
+        "appName_": "phaser tiled map spritesheet sample",
+        "appID_": "xdk.intel.phaser.js.project",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "4.1.2",
+        "crosswalkVersion_": "10",
         "appVersion_": "0.0.0.1",
         "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
       },
@@ -153,11 +168,11 @@
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "4.1.2",
+        "crosswalkVersion_": "10",
         "appVersion_": "1.0.0.0"
       }
     }
