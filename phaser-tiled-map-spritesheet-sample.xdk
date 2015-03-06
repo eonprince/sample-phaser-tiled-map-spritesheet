@@ -3,7 +3,6 @@
     "projectSettingsVersion": "1.2",
     "creationData": {
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
-      "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2015-ww07/template-phaser-landscape/sample.zip",
       "projectGuid": "a41de800-3e04-4a71-8a17-e0ebcc6d40e4",
       "lastModifiedDate": 1423626786588,
       "creationDate": 1423469832454
@@ -12,22 +11,7 @@
     "startFile": "index.html",
     "projectFiles": {},
     "projectDirectories": {},
-    "libraries": [
-      {
-        "name": "Cordova",
-        "version": "2.9.0",
-        "data": {
-          "default": true
-        }
-      },
-      {
-        "name": "intelXDK",
-        "version": "4.0.0",
-        "data": {
-          "default": true
-        }
-      }
-    ],
+    "libraries": [],
     "serviceMethods": [],
     "gameAssetDirectory": "asset",
     "gameMetadata": {
