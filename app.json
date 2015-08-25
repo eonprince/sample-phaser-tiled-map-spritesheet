@@ -7,7 +7,6 @@
     "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
     "keywords": ["Phaser", "Game"],
     "visible": true,
-    "landscape": true,
     "highlights": ["Phaser", "Game", "Texture Atlas"],
     "appname": "demo.phaserTiledmapSample",
     "abbr": "",
