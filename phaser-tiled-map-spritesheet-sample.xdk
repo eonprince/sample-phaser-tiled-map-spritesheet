@@ -98,7 +98,7 @@
                 "appName_": "Phaser-Tiledmap-Spritesheet",
                 "appID_": "xdk.intel.phaser.js.project",
                 "appAccess_": {
-                    "mode": "legacy",
+                    "mode": "whitelist",
                     "network": [
                         "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
